@@ -32,7 +32,7 @@ function Nav(props) {
             <a
               data-testid="about"
               href="#about"
-              onClick={() => setContactSelected(true)}
+              onClick={() => setContactSelected(false)}
             >
               About me
             </a>
